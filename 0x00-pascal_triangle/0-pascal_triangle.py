@@ -10,7 +10,6 @@ def pascal_triangle(n):
         return []
     # first element
     triangle = [[1]]
-
     for i in range(1, n):
         row = [1]
         for j in range(1, i):
